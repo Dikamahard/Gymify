@@ -1,10 +1,5 @@
-<p align="center"><a href="/" target="_blank"><img src="https://storage.googleapis.com/gogym-bangkit-capstone.appspot.com/LogoGoGym.png" width="400" alt="GoGym Logo"></a></p>
-
-## Mobile Development Documentation
-The source code of Android app of GoGym using Kotlin in order to complete Bangkit Capstone Project.
-
- - ### Architecture for this project  
-![architecture gogym](https://github.com/bangkit-gogym/GoGym/assets/84064388/68fe8fc7-4f98-42b8-96c3-7f0731ad072e)
+## Software Development Documentation
+The source code of Android app of Gymify using Kotlin in order to complete Gemastik 2023.
 
  - ### Feature
       * **Splash Screen**, There is logo screen before into the login page
@@ -20,8 +15,6 @@ The source code of Android app of GoGym using Kotlin in order to complete Bangki
       * **Take Image From Camera**, You can take image from camera in preparation for uploading an image to detect the equipment.
 
       * **Send image to server to detect a equipment**, After you prepare the image, you can click the process button to send the image and detect the image and get the detail about the equipment
-
-      * **Article About Equipment Gym**,  in this application you can read articles about equipment
 
 
 * #### Dependencies :
@@ -46,7 +39,7 @@ The source code of Android app of GoGym using Kotlin in order to complete Bangki
         - Connect Android Studio with Firebase [Connect to Firebase](https://developer.android.com/studio/write/firebase)
         - Clone this repository and import into Android Studio    
             ```
-               https://github.com/bangkit-gogym/GoGym.git
+               https://github.com/Dikamahard/Gymify.git
             ``` 
         - Enter your API in buildConfigField `build.graddle`
            ``` defaultConfig {
