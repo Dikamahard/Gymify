@@ -179,7 +179,7 @@ class ScanFragment : Fragment() {
         createCustomTempFile(requireContext()).also {
             val photoURI: Uri = FileProvider.getUriForFile(
                 requireActivity(),
-                "com.bangkit.gogym",
+                "com.dikamahard.gymify",
                 it
             )
             currentPhotoPath = it.absolutePath

@@ -41,5 +41,10 @@ interface ApiService {
     @GET("equipments/{id}")
     fun getEquipmentDetail(@Path("id") id: Int): Call<EquipmentDetailResponse>
 
+    @POST("logout")
+    fun logout(
+        @Header("Authorization") token: String,
+    ): Call<LogoutResponse>
+
 
 }

@@ -36,8 +36,8 @@ class LoginActivity : AppCompatActivity() {
             val email = binding.etEmail.text.toString()
             val pw = binding.etPassword.text.toString()
 
-        //    authenticate(email, pw)
-            startActivity(Intent(this, MainActivity::class.java))
+            authenticate(email, pw)
+//            startActivity(Intent(this, MainActivity::class.java))
         }
 
         viewModel.loginUser.observe(this) { response ->
