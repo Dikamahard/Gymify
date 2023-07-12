@@ -8,8 +8,11 @@
 
     <TextView
         android:id="@+id/bio2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/mazzardh_semibold"
         android:text="Gymify adalah sebuah aplikasi berbasis mobile inovatif yang dirancang untuk mempermudah pengguna dalam menjalankan kegiatan kebugaran di gym."
         android:textAlignment="center"
         android:textColor="#0C1357"
@@ -25,7 +28,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
@@ -45,7 +48,7 @@
         android:id="@+id/imageView3"
         android:layout_width="343dp"
         android:layout_height="311dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="160dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

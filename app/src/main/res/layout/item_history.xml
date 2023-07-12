@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:ellipsize="end"
+            android:fontFamily="@font/mazzardh_semibold"
             android:gravity="start"
             android:maxLines="3"
             android:textColor="#343434"
@@ -48,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/mazzardh_medium"
             android:text="tanggal scan"
             app:layout_constraintStart_toStartOf="@+id/tv_history_name"
             app:layout_constraintTop_toBottomOf="@+id/tv_history_name" />
