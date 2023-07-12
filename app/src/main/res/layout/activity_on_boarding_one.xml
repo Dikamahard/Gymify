@@ -9,61 +9,46 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="301dp"
-        android:layout_height="636dp"
-        android:layout_marginBottom="176dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="307dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.02"
         app:srcCompat="@drawable/gambarsatu" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your GoTo Gym Application"
-        android:textColor="@color/purple_700"
-        android:textSize="25sp"
+        android:layout_marginTop="48dp"
+        android:text="Selamat \nDatang \ndi Gymify :)"
+        android:textColor="#0C1357"
+        android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_marginTop="130dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:textAllCaps="false" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="GoGym adalah aplikasi machine learning yang dapat mengenali alat-alat gym."
-        android:textColor="@color/purple_700"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:layout_marginTop="280dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:textAllCaps="false" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button1"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/shapebutton"
         android:text="Lanjut"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textColorHighlight="#C7CCFA"
+        android:textSize="16sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginBottom="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"  />
+       />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

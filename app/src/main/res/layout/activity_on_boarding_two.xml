@@ -6,65 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".ui.onboarding.OnBoardingTwoActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="301dp"
-        android:layout_height="636dp"
-        android:layout_marginBottom="176dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/gambardua" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nyalakan Kamera Kamu!"
-        android:textColor="@color/purple_700"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginTop="130dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:textAllCaps="false" />
-
     <TextView
         android:id="@+id/bio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dengan GoGym, kamu cukup menyediakan
-atau\nmengakses galery kamu untuk dideteksi.
-kirimkan\nphoto alat gym yang ingin kamu
-ketahui yaa!"
-        android:textColor="@color/purple_700"
+        android:text="Gymify adalah sebuah aplikasi berbasis mobile inovatif yang dirancang untuk mempermudah pengguna dalam menjalankan kegiatan kebugaran di gym."
+        android:textAlignment="center"
+        android:textColor="#0C1357"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:layout_marginTop="280dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
         app:textAllCaps="false" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/shapebutton"
-        android:text="Selesai"
-        android:layout_marginLeft="150dp"
-        android:layout_marginBottom="35dp"
+        android:text="Lanjut"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="343dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_undraw_fitness_tracker_3033" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
