@@ -1,5 +1,3 @@
-<p align="center"><a href="/" target="_blank"><img src="https://storage.googleapis.com/gogym-bangkit-capstone.appspot.com/LogoGoGym.png" width="400" alt="Gymify Logo"></a></p>
-
 ## Cloud Computing Documentation
 
 The source code of Gymify Backend/API which make uses of Laravel 10 as the framework provider with some dependencies and Google Cloud Platform in order to complete Bangkit Capstone Project. Here are the related links/websites that the application uses :
