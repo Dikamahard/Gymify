@@ -1,8 +1,8 @@
-<p align="center"><a href="/" target="_blank"><img src="https://storage.googleapis.com/gogym-bangkit-capstone.appspot.com/LogoGoGym.png" width="400" alt="GoGym Logo"></a></p>
+<p align="center"><a href="/" target="_blank"><img src="https://storage.googleapis.com/gogym-bangkit-capstone.appspot.com/LogoGoGym.png" width="400" alt="Gymify Logo"></a></p>
 
 ## Cloud Computing Documentation
 
-The source code of GoGym Backend/API which make uses of Laravel 10 as the framework provider with some dependencies and Google Cloud Platform in order to complete Bangkit Capstone Project. Here are the related links/websites that the application uses :
+The source code of Gymify Backend/API which make uses of Laravel 10 as the framework provider with some dependencies and Google Cloud Platform in order to complete Bangkit Capstone Project. Here are the related links/websites that the application uses :
 
 - [Laravel](https://laravel.com/).
 - [Google Cloud Console](https://console.cloud.google.com/).
@@ -21,9 +21,9 @@ The source code of GoGym Backend/API which make uses of Laravel 10 as the framew
         - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install-sdk)
 
       - #### Installation
-        - Clone the [backend-api](https://github.com/bangkit-gogym/GoGym/tree/backend-api) branch in this repository and import into Visual Studio Code   
+        - Clone the [backend-api](https://github.com/Dikamahard/Gymify/tree/backend-api) branch in this repository and import into Visual Studio Code   
             ```
-               https://github.com/bangkit-gogym/GoGym.git
+               https://github.com/Dikamahard/Gymify.git
             ```
         - Initialize Laravel in the related directory [Install Laravel](https://laravel.com/docs/10.x/installation)
         - Install the related dependencies
